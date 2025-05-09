@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to top right, #1D52D5, #1D418F);
+}
+  
+main {
+  flex: 1;
+  padding: 20px;
+}
+  
+header {
+  text-align: center;
+  padding: 20px;
+}
+  
+h1 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+#album_img {
+  width: 248px;
+  height: inherit;
+  box-shadow: 7px 7px 4px #101324;
+  border-radius: 2px;
+}
+  
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+#center{
+  text-align: center;
+}
+
+a{
+  font-size: 25px;
+  text-decoration: none;
+  color:#ffffff
+}
